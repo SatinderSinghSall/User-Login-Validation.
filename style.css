@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: url('./Assets/Images/Background_Image.png') no-repeat;
+    background-size: cover;
+}
+
+.box
+{
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px #89c9f3, -2px -2px 5px #89c9f3;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+}
+
+.SignUp-header h1
+{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px 8px;
+}
+
+.SignUp-MainBody p
+{
+    margin-top: 20px;
+    position: relative;
+}
+
+.SignUp-MainBody P span
+{
+    font-size: 19px;
+    font-weight: 600;
+    color: #90ee90;
+}
+
+.SignUp-MainBody p i
+{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    color: red;
+    font-size: 22px;
+}
+
+.SignUp-MainBody p label
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.SignUp-MainBody p input
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-block-end: 4px;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.SignUp-MainBody p input[type="submit"]
+{
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.SignUp-MainBody p input[type="submit"]:hover
+{
+    background-color: #2773a5;
+}
+
+.SignUp-Footer p
+{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.SignUp-Footer p a
+{
+    text-decoration: none;
+}
+
+.SignUp-Footer p a:hover
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px)
+{
+    .box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .box
+    {
+        padding: 10px;
+    }
+}
+
+.SignUp-header h1
+{
+    font-size: 2rem;
+}
+
+.SignUp-MainBody p input[type="text"],
+.SignUp-MainBody p input[type="email"],
+.SignUp-MainBody p input[type="password"],
+.SignUp-MainBody p input[type="submit"]
+{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}

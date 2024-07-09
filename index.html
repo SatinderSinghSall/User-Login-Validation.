@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title> Form Validation. </title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box">
+                <header class="SignUp-header">
+                    <h1> Sign-Up. </h1>
+                </header>
+
+                <main class="SignUp-MainBody">
+                    <form action="#">
+                        <p>
+                            <label for="UserFullName"> Enter your full name here: </label>
+                            <input type="text" placeholder="Enter your Name here." id="UserFullName"/>
+                            <i class="fa-solid"></i>
+                            <span id="NameError"></span>
+                        </p>
+
+                        <p>
+                            <label for="UserEmail"> Enter e-mail here: </label>
+                            <input type="email" placeholder="example123@gmail.com" id="UserEmail"/>
+                            <i class="fa-solid"></i>
+                            <span id="EmailError"></span>
+                        </p>
+
+                        <p>
+                            <label for="UserPassword"> Enter your password here: </label>
+                            <input type="password" placeholder="Enter your Password here." id="UserPassword"/>
+                            <i class="fa-solid"></i>
+                            <span id="PasswordError"></span>
+                        </p>
+
+                        <p>
+                            <input type="submit" value="Create an account." id="SubmitButton"/>
+                        </p>
+                    </form>
+                </main>
+
+                <footer class="SignUp-Footer">
+                    <p> Already have an account? <a href=""> Log-in. </a> </p>
+                </footer>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/f081733f04.js" crossorigin="anonymous"></script>
+    </body>
+</html>
